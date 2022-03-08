@@ -13,3 +13,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* мои стили */
+span {
+  font-weight: 700;
+}
+.first {
+  color: red;
+}
+.last {
+  color: blue;
+}

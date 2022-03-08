@@ -1,8 +1,24 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { App } from 'components/App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom';
+// import reportWebVitals from './reportWebVitals';
 import './index.css';
+
+
+// const elem = React.createElement('div', { a: 1 }, 'Привет', ', я твой друг');
+// console.log(elem);
+
+// const elem1 = React.createElement('span', { children: 'А это' });
+// const elem1 = <span class="first">А это</span>;
+// const elem2 = <span class="last">новый элемент</span>; // jsx syntaxis
+
+// const jsxElem = (<div>{elem1} - {elem2}</div>) // jsx выражение
+// console.log(jsxElem)
+
+// ReactDOM.render(elem, document.querySelector('#root'));
+// ReactDOM.render(jsxElem, document.querySelector('#root'));
+
+// ReactDOM.render(<App />, document.querySelector('#root'))
 
 ReactDOM.render(
   <React.StrictMode>
@@ -10,8 +26,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
