@@ -21,3 +21,14 @@ ul {
 li {
   list-style: none;
 }
+table {
+  margin: 20px auto;
+}
+th {
+  padding: 5px;
+  background-color: darkcyan;
+}
+td {
+  padding: 5px;
+  background-color: aquamarine;
+}
